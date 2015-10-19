@@ -171,50 +171,49 @@ ul#right li a {
 	font-size: 18px;
 }
 
-@media screen and (max-width: 1000px) {
+/* Media Queries */
+
+@media (max-width: 800px) {
 	#searchBox input {
-		width: 650px;
-	}
-	ul#left, ul#right {
-		margin: 5px 0;
+		width: 60%;
 	}
 }
-@media screen and (max-width: 780px) {
-	* {
-		font-size: 15px;
-	}
-	ul#nav {
-		margin-top: 0;
-		margin-right: 0;
-	}
-	ul#nav li {
-		padding: 5px 13px 0 0;
-		margin: 5px 0 0 0;
-	}
-	div#searchBox img {
-		padding: 142px 0 20px 0;
-	}
+@media (max-width: 594px) {
 	#searchBox input {
-		width: 400px
-		height: 24px;
-		font-size: 15px;
+		width: 65%;
 	}
-	ul#left,
-	ul#right {
-		margin: 5px;
+}
+@media (max-width: 550px) {
+	#searchBox input {
+		width: 70%;
 	}
-	ul#left {
-		padding-left: 0;
+}
+@media (max-width: 473px) {
+	.profile_img {
+		display: none;
 	}
-	ul#right {
-		padding-right: 0;
-		padding-left: 0;
+}
+@media (max-width: 460px) {
+	#nav .share {
+		display: none;
 	}
-	ul#left li a, ul#right li a {
-		margin: 2px 4px 0;
-		font-size: 15px;
+}
+@media (max-width: 422px) {
+	ul#nav {
+		float: none;
+	}
+}
+@media (max-width: 460px) {
+	#right {
+		display: none;
+	}
+	* {
+		font-size: 12px;
+	}
+	ul#left li a {
+		font-size: 12px;
 	}
 	div.buttons button {
-		padding: 10px 20px;
+		font-size: 12px;
 	}
 }
